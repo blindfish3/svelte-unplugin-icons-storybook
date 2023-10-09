@@ -1,3 +1,12 @@
+### The problem
+
+Component Foo uses [unplugin-icons](https://github.com/unplugin/unplugin-icons) to render an SVG.  If you run the sveltekit application you can see that this SVG renders fine when the component is added to `/routes/+page.svelte`.  However in Storybook the documentation page fails to load and an error is reported in the console:
+
+> ENOENT: no such file or directory, open '~icons/lib-icons/heart.svelte'
+
+
+---
+
 # create-svelte
 
 Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
