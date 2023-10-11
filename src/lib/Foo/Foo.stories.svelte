@@ -9,7 +9,6 @@
 
 <script>
 	import { Template, Story } from '@storybook/addon-svelte-csf';
-	// import CloseIcon from '~icons/lib-icons/calendar.svg';
 </script>
 
 <Template let:args>

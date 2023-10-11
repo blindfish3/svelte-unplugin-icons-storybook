@@ -4,7 +4,7 @@ Component Foo uses [unplugin-icons](https://github.com/unplugin/unplugin-icons) 
 
 > ENOENT: no such file or directory, open '~icons/lib-icons/heart.svelte'
 
-
+Initial assumption was that plugins need to be manually added to StorybookConfig; but this still results in the same error.
 ---
 
 # create-svelte
